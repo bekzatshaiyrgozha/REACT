@@ -1,17 +1,43 @@
-# React + Vite
+# About Me – React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Live demo:** https://bekzatshaiyrgozha.github.io/REACT/
 
-Currently, two official plugins are available:
+## What's on the page
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- My name and photo
+- About Me section
+- My skills
+- Contacts
 
-## React Compiler
+## Components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `Header` – top part with my photo, name and the mouse effect
+- `FloatingShapes` – circles that float in the background
+- `CodeCard` – the hidden code that shows up under the mouse
+- `About` – a few words about me
+- `Skills` – list of my skills (made with `.map()`)
+- `Contact` – my contacts
 
-## Expanding the Oxlint configuration
+## How to run it
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-# REACT
+```bash
+npm install
+npm run dev
+```
+
+Then open the link from the terminal (usually http://localhost:5173/REACT/).
+
+## How I deployed it
+
+I used the `gh-pages` package:
+
+```bash
+npm run deploy
+```
+
+## Built with
+
+- React
+- Vite
+- CSS
+- GitHub Pages
