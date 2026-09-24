@@ -4,17 +4,17 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import "./App.css";
 
-
-function App(){
-  return(
-    <div className="container"> 
+function App() {
+  return (
+    <>
       <Header />
-      <About />
-      <Skills />
-      <Contact />
-
-    </div>
-    
-  )
+      <main className="container">
+        <About />
+        <Skills />
+        <Contact />
+      </main>
+    </>
+  );
 }
+
 export default App;
